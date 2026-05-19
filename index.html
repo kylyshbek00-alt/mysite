@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Медициналық жоғары колледжі</title>
+    <style>
+        /* Жалпы стильдер */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        header {
+            background-color: #005b96;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo h1 {
+            margin: 0;
+            font-size: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        /* Баннер */
+        .hero {
+            background: linear-gradient(rgba(0, 91, 150, 0.7), rgba(0, 91, 150, 0.7)), url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        /* Контент бөлімі */
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 30px;
+        }
+        .news-section, .sidebar-section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .news-card {
+            border-bottom: 1px solid #eee;
+            padding: 15px 0;
+        }
+        .news-card:last-child {
+            border-bottom: none;
+        }
+        .news-card h3 {
+            margin: 0 0 10px 0;
+            color: #013a63;
+        }
+        /* Футер */
+        footer {
+            background-color: #013a63;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Шапка / Меню -->
+    <header>
+        <div class="logo">
+            <h1>ЖОҒАРЫ МЕДИЦИНАЛЫҚ КОЛЛЕДЖІ</h1>
+        </div>
+        <nav>
+            <a href="#">Басты бет</a>
+            <a href="#">Колледж туралы</a>
+            <a href="#">Талапкерге</a>
+            <a href="#">Студентке</a>
+            <a href="#">Жаңалықтар</a>
+        </nav>
+    </header>
+
+    <!-- Басты баннер -->
+    <div class="hero">
+        <h2>Болашақ медицина мамандарын даярлау орталығы</h2>
+        <p>Сапалы білім — азаматтық парыз</p>
+    </div>
+
+    <!-- Негізгі контент -->
+    <div class="container">
+        <!-- Жаңалықтар таспасы -->
+        <div class="news-section">
+            <h2>Соңғы жаңалықтар</h2>
+            <div class="news-card">
+                <h3>Халықаралық ғылыми-тәжірибелік конференция өтті</h3>
+                <p>Колледжімізде студенттер мен жас ғалымдардың қатысуымен үлкен ғылыми шара ұйымдастырылды...</p>
+                <small style="color: #888;">18 Мамыр, 2026</small>
+            </div>
+            <div class="news-card">
+                <h3>Талапкерлерге ескерту: Құжаттар қабылдау басталды</h3>
+                <p>2026-2027 оқу жылына медициналық мамандықтар бойынша құжаттарды қабылдау ережелері бекітілді...</p>
+                <small style="color: #888;">15 Мамыр, 2026</small>
+            </div>
+        </div>
+
+        <!-- Бүйірлік панель (Хабарландырулар) -->
+        <div class="sidebar-section">
+            <h2>Маңызды сілтемелер</h2>
+            <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 15px;"><a href="#" style="color: #005b96; text-decoration: none; font-weight: bold;">➢ Мемлекеттік көрсетілетін қызметтер</a></li>
+                <li style="margin-bottom: 15px;"><a href="#" style="color: #005b96; text-decoration: none; font-weight: bold;">➢ Сыбайлас жемқорлыққа қарсы іс-қимыл</a></li>
+                <li style="margin-bottom: 15px;"><a href="#" style="color: #005b96; text-decoration: none; font-weight: bold;">➢ Студенттік парламент өмірі</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Футер / Байланыс мәліметтері -->
+    <footer>
+        <p>© 2026 Жоғары медициналық колледжі. Барлық құқықтар қорғалған.</p>
+        <p>Байланыс телефоны: +7 (7242) XX-XX-XX | Электрондық пошта: info@medcollege.kz</p>
+    </footer>
+
+</body>
+</html>
